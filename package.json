@@ -37,8 +37,8 @@
       },
       "electronPackagerConfig": {
         "packageManager": "npm",
-        "name": "Coffitivity Offline",
-        "icon": "./assets/icon.png.icns"
+        "name": "Coffitivity",
+        "icon": "./assets/icon.ico"
       }
     }
   },
