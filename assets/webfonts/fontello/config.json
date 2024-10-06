@@ -71,6 +71,12 @@
       "css": "info-circled-alt",
       "code": 61574,
       "src": "mfglabs"
+    },
+    {
+      "uid": "e99461abfef3923546da8d745372c995",
+      "css": "cog",
+      "code": 59397,
+      "src": "fontawesome"
     }
   ]
 }
