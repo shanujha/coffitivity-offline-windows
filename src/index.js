@@ -13,9 +13,11 @@ const createWindow = () => {
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 300,
-    height: 500,
+    height: 600,
     resizable: false,
     titleBarStyle: 'hidden',
+    title: 'Coffitivity Offline',
+    autoHideMenuBar: true,
     fullscreen: false,
     movable: true,
     icon: path.join(__dirname, '../assets/icon.ico')
