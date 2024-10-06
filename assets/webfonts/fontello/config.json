@@ -77,6 +77,18 @@
       "css": "cog",
       "code": 59397,
       "src": "fontawesome"
+    },
+    {
+      "uid": "ivmsk67zo1yb1tthd3ugi4xnb3get418",
+      "css": "sun",
+      "code": 59399,
+      "src": "typicons"
+    },
+    {
+      "uid": "7d6302991626c252d089d14dc760fc37",
+      "css": "moon",
+      "code": 59400,
+      "src": "typicons"
     }
   ]
 }
