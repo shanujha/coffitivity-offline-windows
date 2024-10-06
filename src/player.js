@@ -99,3 +99,24 @@ let landingPageFn = () => {
 let aboutPageFn = () => { //  eslint-disable-line
   document.querySelector('.page3').style.display = 'block';
 };
+
+let changeTheme = () => {
+  let currentTheme = localStorage.getItem('theme') || 'style.css';
+  let newTheme = (currentTheme === 'style.css') ? 'style-dark.css' : 'style.css';
+  localStorage.setItem('theme', newTheme);
+  document.getElementById('theme-link').href = newTheme;
+
+  // Update icon
+  let themeIcon = document.querySelector('#theme-icon');
+  themeIcon.className = (newTheme === 'style.css') ? 'footer-icon icon-sun' : 'footer-icon icon-moon';
+}
+
+// Apply saved theme on page load
+window.onload = () => {
+  let savedTheme = localStorage.getItem('theme') || 'style.css';
+  document.getElementById('theme-link').href = savedTheme;
+
+  // Update icon
+  let themeIcon = document.querySelector('#theme-icon');
+  themeIcon.className = (savedTheme === 'style.css') ? 'footer-icon icon-sun' : 'footer-icon icon-moon'
+};
